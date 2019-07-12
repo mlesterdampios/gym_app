@@ -1,0 +1,12 @@
+ion-list ion-col p{
+	display: table-cell; 
+  vertical-align: middle; 
+  text-align: center; 
+}
+
+ion-list ion-col{
+  position: absolute; 
+
+  height: 100%; 
+  display: table; 
+}

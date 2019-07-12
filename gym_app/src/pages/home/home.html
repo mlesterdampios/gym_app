@@ -1,0 +1,27 @@
+<ion-header>
+  <ion-navbar color="primary">
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Bravo Gym
+	</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content class="homePage">
+    <img class="logo" src="assets/images/logo.png"/>
+    <div class="nav">
+	    <ion-grid>
+	    	<ion-row>
+	    		<ion-col>
+      				<ion-icon (click)="openPage('category')" style="text-center" name="md-book"></ion-icon><br>
+      				<label>All Exercises</label>
+	    		</ion-col>
+	    		<ion-col>
+	      			<ion-icon (click)="openPage('weekcategory')" style="text-center" name="md-list-box"></ion-icon><br>
+      				<label>Scheduled Exercises</label>
+	    		</ion-col>
+	    	</ion-row>
+	    </ion-grid>
+	</div>
+</ion-content>

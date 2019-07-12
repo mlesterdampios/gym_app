@@ -1,0 +1,7 @@
+{
+  "name": "gym_app",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}

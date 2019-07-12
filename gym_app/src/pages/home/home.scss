@@ -1,0 +1,29 @@
+.logo{
+	margin-top : 70px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width : 100%;
+    height: auto;
+}
+
+ion-content.homePage{
+	background-color : #ebeff9 !important;
+}
+
+.nav {
+	height: auto;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav ion-grid ion-row ion-col{
+	/*border: 1px solid #d5d7e1;*/
+	text-align: center;
+	color: #156aff;
+}
+
+.nav ion-icon{
+	font-size : 30vw !important;
+}
